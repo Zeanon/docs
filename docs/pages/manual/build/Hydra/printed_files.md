@@ -25,8 +25,8 @@ For the recommended settings when printing our parts, please click [here](/stand
 
 You can now download the step files for our Mercury One.1! Select the appropriate size for your 3D printer:
 
-* <a href="../../../assets/stl/hydra/Hydra_5pro.stp" download >Ender 5 (pro) Size - <b>Hydra_5pro.stp</b></a>
-* <a href="../../../assets/stl/hydra/Hydra_5Plus.stp" download >Ender 5 Plus Size - <b>Hydra_5Plus.stp</b></a>
+* <a href="../../../assets/stl/hydra/Hydra_5pro.zip" download >Ender 5 (pro) Size - <b>Hydra_5pro.zip</b></a>
+* <a href="../../../assets/stl/hydra/Hydra_5Plus.zip" download >Ender 5 Plus Size - <b>Hydra_5Plus.zip</b></a>
 
 Simply click on the desired link and start creating your masterpiece with ease.
 
@@ -48,26 +48,26 @@ Our configurator tool creates a handy Zip file for you, which includes all the S
 
 <form action="post">
 
-Magnet Size* 
+Magnet Size*
 <select class="list_dark" name="magnet" id="magnet">
     <option value="option0">Select</option>
 
 </select><br/>
 
-Minitank Size* 
+Minitank Size*
 <select class="list_dark" name="carriage" id="carriage">
     <option value="option0">Select</option>
 
 </select><br/>
 
-Ziptie Mounts* 
+Ziptie Mounts*
 <select class="list_dark" name="ziptie" id="ziptie">
     <option value="option0">Select</option>
 
 </select><br/>
 <p class="fs-2 fw-300">Ziptie mounts are optional for cable management, allowing for easy attachment of wires to the back of the extrusion.</p>
 
-Wago Mount* 
+Wago Mount*
 <select class="list_dark" name="wago" id="wago">
     <option value="option0">Select</option>
 

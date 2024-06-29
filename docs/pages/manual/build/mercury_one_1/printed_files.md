@@ -26,8 +26,8 @@ For the recommended settings when printing our parts, please click [here](/stand
 
 You can now download the step files for our Mercury One.1! Select the appropriate size for your 3D printer:
 
-* <a href="../../../assets/stl/m1_1/mercury_235_assembly.step" download >Ender 5 (pro) Size - <b>mercury_235_assembly.step</b></a>
-* <a href="../../../assets/stl/m1_1/mercury_370_assembly.step" download >Ender 5 Plus Size - <b>mercury_370_assembly.step</b></a>
+* <a href="../../../assets/stl/m1_1/mercury_235_assembly.zip" download >Ender 5 (pro) Size - <b>mercury_235_assembly.zip</b></a>
+* <a href="../../../assets/stl/m1_1/mercury_370_assembly.zip" download >Ender 5 Plus Size - <b>mercury_370_assembly.zip</b></a>
 
 Simply click on the desired link and start creating your masterpiece with ease.
 
