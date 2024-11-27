@@ -8,28 +8,10 @@ grand_parent: Manual
 permalink: /manual/build/mercury_eva/printed_files
 img_instr: ../../../assets/images/instructions
 js_path: ../../../scripts
+docs_path: https://api.github.com/repos/ZeroGDesign/docs/contents/docs
+merc_path: https://api.github.com/repos/ZeroGDesign/docs/contents/docs/assets/stl/m1_1
+eva_path: https://api.github.com/repos/ZeroGDesign/docs/contents/docs/assets/stl/eva2_4
 ---
-
-# Mercury One.1 - Files
-{: .no_toc }
-
-If you are looking to download the files, there are two methods available to you. The first option is to use one of two configurators: the [Mercury One.1 Configurator](#mercury-one1-configurator) or the [Eva 2.4 Configurator](#eva-24-toolhead-configurator). Alternatively, you can manually download the files you need by clicking on a link for either [Mercury One.1](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/m1_1){:target="_blank"} or [Eva 2.4](https://github.com/ZeroGDesign/docs/tree/gh-pages/docs/assets/stl/eva2_4){:target="_blank"}. Depending on your preferences and needs, one of these two methods may be more suitable for you.
-
-1. Table of contents
-{:toc}
-
-## Print settings
-
-For the recommended settings when printing our parts, please click [here](/standard/print/settings){:target="_blank"}. Deviating from these settings may result in lower quality prints, loss of features, and improper alignment.
-
-## Step Files
-
-You can now download the step files for our Mercury One.1! Select the appropriate size for your 3D printer:
-
-* <a href="../../../assets/stl/m1_1/mercury_235_assembly.zip" download >Ender 5 (pro) Size - <b>mercury_235_assembly.zip</b></a>
-* <a href="../../../assets/stl/m1_1/mercury_370_assembly.zip" download >Ender 5 Plus Size - <b>mercury_370_assembly.zip</b></a>
-
-Simply click on the desired link and start creating your masterpiece with ease.
 
 <!-- Configurator Mercury One.1 -->
 ## Mercury One.1 Configurator
@@ -51,7 +33,7 @@ Toothed idler*
 <select class="list_dark" name="tidler" id="tidler">
     <option value="option0">Select</option>
 </select><br/>
-<div class="fs-3 fw-300">If unsure which to choose, download the PDF file by clicking <a href="../../../assets/images/instructions/m1_1/spacer_instruction.pdf" download >here</a>, and it will guide you through the process.</div>
+<div class="fs-3 fw-300">If unsure which to choose, download the PDF file by clicking <a href="{{page.docs_path}}/assets/images/instructions/m1_1/spacer_instruction.pdf" download >here</a>, and it will guide you through the process.</div>
 
 Tension plate*
 <select class="list_dark" name="tensionplate" id="tensionplate">
@@ -63,7 +45,7 @@ Tension plate*
 
 <p class="fs-3 fw-300">Double check your selected values before clicking the button below..</p>
 
-<button class="btn" onclick="zipAndDownload(getDocumentList('Mercury'), '../../../assets/stl/m1_1/' ,'Mercury');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
+<button class="btn" onclick="zipAndDownload(getDocumentList('Mercury'), '{{page.merc_path}}' ,'Mercury');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
 
 <div class="status_text" id="progressMerc"></div>
 
@@ -107,7 +89,7 @@ Probe*
 
 <p class="fs-3 fw-300">Double check your selected values before clicking the button below..</p>
 
-<button class="btn" onclick="zipAndDownload(getDocumentList('Eva'), '../../../assets/stl/eva2_4/', 'Eva');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
+<button class="btn" onclick="zipAndDownload(getDocumentList('Eva'), '{{page.eva_path}}', 'Eva');" type="submit"><i class="bi bi-cloud-arrow-down"></i> Get Files!</button>
 
 <div class="status_text" id="progressEVA"></div>
 
